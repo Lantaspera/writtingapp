@@ -1,0 +1,107 @@
+.Create{
+width: 85vw;
+height: 100%;
+margin-left: 13vw;
+    
+}
+.create-hr{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+margin-left: 10%;
+margin-top: 3%;
+}
+.Title-c{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;  
+margin-left: 10%;
+font-weight: 600px;
+font-size: 16px;
+line-height: 27px;
+margin-top:4%;
+color: #000000;
+
+
+}
+.Title-Lan{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;  
+    margin-left: 10%;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top:30px;
+    color: #000000;
+    
+    
+    }
+.untitle{
+    Width:445px;
+    Height:40px;
+    margin-bottom:-30px;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 14px;
+    border: 0.5px solid #56B280;
+    box-sizing: border-box;
+    margin-left: 10%;
+    color: #616161;
+   
+    
+}
+
+
+
+.category-c{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;  
+    margin-left: 10%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 4%;
+    color: #000000;
+}
+
+
+.language-c{
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;  
+margin-left: 10%;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+margin-top: 4%;
+color: #000000;
+
+}
+
+.submit{
+height: 35px;
+width: 175px;
+
+border-radius: 4px;
+padding: 8px, 44px, 8px, 44px;
+background: #56B280;
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 500;  
+
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+margin-top: 150px;
+margin-left: 30%;
+text-align: center;
+align-items: center;
+color: #ffff;
+padding: 5px;
+
+
+}
