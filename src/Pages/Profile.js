@@ -1,6 +1,5 @@
 import React from 'react'
-import "../Css/Profile.css"
-import ProfilePage from '../Components/ProfilePage'
+import ProfilePage from '../Components/profile/ProfilePage'
 import LeftNavbarprofile from '../Components/LeftNavibar/LeftNavbarprofile'
 function Profile() {
     return (

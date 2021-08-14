@@ -1,5 +1,5 @@
 import React from 'react'
-import"../Css/Help.css"
+import"./Help.css"
 function HelpPage() {
     return (
         <div className="help-main">

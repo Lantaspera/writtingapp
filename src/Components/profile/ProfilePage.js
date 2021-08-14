@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import"../Css/Profile.css"
+import"./Profile.css"
 import LoyaltyIcon from '@material-ui/icons/Loyalty';
 
 

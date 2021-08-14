@@ -1,5 +1,5 @@
 import React from 'react'
-import"../Css/Notifications.css"
+import"./Notifications.css"
 
 
 function NotificationsPage() {
