@@ -1,5 +1,5 @@
 import React from 'react'
-import"../Css/Settings.css"
+import"./Settings.css"
 
 
 function SettingsAccount() {

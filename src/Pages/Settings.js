@@ -1,5 +1,5 @@
 import React from 'react'
-import SettingsAccount from '../Components/SettingsAccount.js'
+import SettingsAccount from '../Components/settings/SettingsAccount.js'
 import LeftNavbarsettings from '../Components/LeftNavibar/LeftNavbarsettings'
 
 

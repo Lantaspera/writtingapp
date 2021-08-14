@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Css/ReadList.css"
+import "./ReadList.css"
 
 function ReadListPage() {
     return (

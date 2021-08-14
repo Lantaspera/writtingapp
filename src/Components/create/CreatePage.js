@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Css/create.css'
+import './create.css'
 
 function CreatePage() {
     return (

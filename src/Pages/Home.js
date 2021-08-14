@@ -1,7 +1,6 @@
 import React from 'react'
 import Feeds from '../Components/Feeds/Feeds'
 import LeftNavbarmain from '../Components/LeftNavibar/LeftNavbarmain'
-import "../Css/Home.css"
 
 
 function Home() {
