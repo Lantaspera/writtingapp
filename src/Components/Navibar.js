@@ -8,6 +8,7 @@ import Settings from '../Pages/Settings';
 import Create from '../Pages/Create';
 import ReadList from '../Pages/ReadList';
 import Help from '../Pages/Help';
+import Events from '../Pages/Events';
 
 function Navibar() {
     return (
@@ -23,6 +24,7 @@ function Navibar() {
                 <Route path = '/readlist' component={ReadList}></Route>
                 <Route path ='/accountsettings' component={Settings}></Route>
                 <Route path = '/help' component={Help}></Route>
+                <Route path = '/events' component={Events}></Route>
               
             </Switch>
           </Router>
