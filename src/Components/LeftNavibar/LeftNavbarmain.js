@@ -55,7 +55,7 @@ function LeftNavbarmain() {
                          className={classes.btn}
                          
                          startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 18 }}/>}
-                         ><Link to ="/readlist">Readlist</Link></Button><br/>
+                         ><Link to ="/readlist" style={{textDecoration: 'none', color: 'black'  }}>Readlist</Link></Button><br/>
 
                         <Button
                          className={classes.btn}
@@ -65,9 +65,9 @@ function LeftNavbarmain() {
 
                         <Button
                          className={classes.btn}
-                         href="#"
+                         
                          startIcon={<EventOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Events</Button><br/>
+                         ><Link to ="/events" style={{textDecoration: 'none', color: 'black'  }}>Events</Link></Button><br/>
 
                         
 
