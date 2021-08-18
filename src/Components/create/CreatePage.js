@@ -1,7 +1,10 @@
 import React from 'react'
 import './create.css'
+import { useState } from 'react';
 
 function CreatePage() {
+        const [input,setInput] = useState('');
+        console.log({input})
     return (
         <div className="Create"> 
             
@@ -67,10 +70,21 @@ function CreatePage() {
                     </div>
             
           </form>
+           <div>
+           
+  
+    <div>
+    <label className="Title-Lan">Compose Here</label><br/>
+    <textarea className="draftarea" placeholder="type here" value={input} onInput={e => setInput(e.target.value)}/><br/>
+    <input class="submit-D"  value="Draft" type="submit" />
+    </div>
+  
+
+           </div>
       
         
         </div>
     )
 }
 
-export default CreatePage
+export default CreatePage 
