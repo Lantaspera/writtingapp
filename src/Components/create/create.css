@@ -105,3 +105,37 @@ padding: 5px;
 
 
 }
+.draftarea{
+    Width:50%;
+    Height:500px;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 14px;
+    border: 0.5px solid #56B280;
+    box-sizing: border-box;
+    margin-left: 10%;
+    color: #616161;  
+    padding:0 5px 400px;
+    word-wrap: break-word;
+    word-break: break-all;
+    
+}
+.submit-D{
+    height: 35px;
+    width: 175px;
+    border-radius: 4px;
+    border-color: white;
+    padding: 8px, 44px, 8px, 44px;
+    background: #56B280;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 500;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 46.7%;
+    color: #ffff;
+    padding: 5px;
+
+
+}
