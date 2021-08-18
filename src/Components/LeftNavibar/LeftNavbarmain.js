@@ -47,9 +47,9 @@ function LeftNavbarmain() {
 
                         <Button
                          className={classes.btn}
-                         href="#"
+                         
                          startIcon={<WhatshotOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Booming</Button><br/>
+                         ><Link to ="/booming" style={{textDecoration: 'none', color: 'black'  }}> Booming</Link></Button><br/>
                         
                         <Button
                          className={classes.btn}
