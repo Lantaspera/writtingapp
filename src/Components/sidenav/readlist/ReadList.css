@@ -41,7 +41,7 @@
 .submit-RL{
     height: 29px;
     width: 115px;
-    background: #bbf3c9;
+    background: #d7d9d9;
     border-radius: 4px;
     font-family: Segoe UI;
     font-size: 12px;
@@ -54,7 +54,7 @@
     border: none;
 }
 .submit-RL:hover{
-    background-color: rgb(127, 247, 97);
+    background-color: #d7f7f3;
 }
 .Item1-RL{
     display:flex;
@@ -78,7 +78,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #bbf3c9;
+    background: #d7d9d9;
     border-radius: 4px; 
     margin-top: 0px;
     margin-left: 10px;
@@ -92,7 +92,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #bbf3c9;
+    background: #d7d9d9;
     border-radius: 4px;
     margin-top: 0px;
     margin-left: 10px;
@@ -106,7 +106,7 @@
         padding: 16px;
         width: 211px;
         height: 285px;
-        background: #bbf3c9;
+        background: #d7d9d9;
     
         border-radius: 4px;
         
