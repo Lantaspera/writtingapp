@@ -41,7 +41,7 @@
 .submit-RL{
     height: 29px;
     width: 115px;
-    background: #FFF8AC;
+    background: #bbf3c9;
     border-radius: 4px;
     font-family: Segoe UI;
     font-size: 12px;
@@ -53,6 +53,9 @@
     margin-left: 3vw;
     border: none;
 }
+.submit-RL:hover{
+    background-color: rgb(127, 247, 97);
+}
 .Item1-RL{
     display:flex;
     flex-direction: row;
@@ -60,7 +63,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #e9f4f8;;
+    background: #d5e7c9;;
     border-radius: 4px;
     margin-top: 0px;
     margin-left: 15px;
@@ -75,7 +78,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #f5f5f5;
+    background: #bbf3c9;
     border-radius: 4px; 
     margin-top: 0px;
     margin-left: 10px;
@@ -89,7 +92,7 @@
     padding: 16px;
     width: 211px;
     height: 285px;
-    background: #f5f5f5;
+    background: #bbf3c9;
     border-radius: 4px;
     margin-top: 0px;
     margin-left: 10px;
@@ -103,7 +106,7 @@
         padding: 16px;
         width: 211px;
         height: 285px;
-        background: #f5f5f5;
+        background: #bbf3c9;
     
         border-radius: 4px;
         
@@ -151,14 +154,15 @@
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.3px;
-    color: #FFFFFF;
+    color: #000000;
 
 }
 .button-RL{
     width: 100px;
     height: 30px;
-    background: #C4C4C4;
+    background: #bbf3c9;
     border-radius: 4px;
+    border: none;
     font-family:Segoe UI; 
     font-style: normal;
     font-weight: 500;
@@ -166,6 +170,10 @@
     line-height: 26px;
     margin-left: 50px;
     color: #000000;
+}
+.button-RL:hover{
+    background: #44e960;
+    color:white
 }
 .but-RL{
     margin-left: 50px;
@@ -177,6 +185,10 @@
     padding: 5px;
     background: #fafafa;
     border-radius: 8px;
+    cursor: pointer;
+}
+.list-RL:hover{
+    background: rgb(164, 228, 164);
 }
 .one-RL{
     font-family: Roboto;
