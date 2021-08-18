@@ -12,8 +12,6 @@ import Booming from '../Pages/Booming';
 import Events from '../Pages/Events';
 import Security from '../Pages/Security';
 
-
-
 function Navibar() {
     return (
         <div className="navigation">
