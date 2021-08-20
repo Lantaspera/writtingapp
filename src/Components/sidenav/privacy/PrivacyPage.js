@@ -31,7 +31,7 @@ function PrivacyPage() {
             </div>
         
         
-            <hr className="line"/>
+            <hr className="line-sec"/>
             <div className="int-section">
                 <h2 className="title">Interactions</h2>
                 <form>
@@ -56,14 +56,7 @@ function PrivacyPage() {
                         </tbody>
                         </table>
                     </div>
-                    {/* <div>
-                        
-                        <label className="allow">Block comments from</label>
-                        <select className="untitle">
-                            <option className="option" value="">0 person</option>
-                        </select>
-
-                    </div> */}
+                    
                     <h4 className="sub-title"><LocalOfferOutlinedIcon/> Tags</h4>
                     <div>
                         <table className="allow">
@@ -98,7 +91,7 @@ function PrivacyPage() {
                     </div>
                 </form>
                 </div>
-                <hr className="line"/>
+                <hr className="line-sec"/>
                 <div>
                     <h6 className="title">Connections</h6>
                     <div>
@@ -109,7 +102,7 @@ function PrivacyPage() {
                         <label className="allow"><PeopleAltOutlinedIcon/> Accounts you follow</label>
                     </div>
                     </div>
-                    <hr className="line"/>
+                    <hr className="line-sec"/>
                     <div className="pol">
                         <h7 className="title">Privacy Policy</h7><br>
                         </br>
