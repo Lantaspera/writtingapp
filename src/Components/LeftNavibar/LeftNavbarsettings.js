@@ -43,9 +43,9 @@ function LeftNavbarsettings() {
                         
                         <Button
                          className={classes.btn}
-                         href="#"
                          startIcon={<VerifiedUserOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Privacy</Button><br/>
+                         ><Link to="/privacy" style={{textDecoration: 'none', color: 'black'  }}>Privacy</Link>
+                         </Button><br/>
 
                         <Button
                          className={classes.btn}

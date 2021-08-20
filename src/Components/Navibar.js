@@ -10,7 +10,9 @@ import ReadList from '../Pages/ReadList';
 import Help from '../Pages/Help';
 import Booming from '../Pages/Booming';
 import Events from '../Pages/Events';
+import Privacy from '../Pages/Privacy';
 import Security from '../Pages/Security';
+
 
 function Navibar() {
     return (
@@ -29,6 +31,8 @@ function Navibar() {
                 <Route path = '/booming' component={Booming}></Route>
                 <Route path = '/security' component={Security}></Route>
                 <Route path = '/events' component={Events}></Route>
+                <Route path ='/privacy' component={Privacy}></Route>
+
             </Switch>
           </Router>
         </div>
