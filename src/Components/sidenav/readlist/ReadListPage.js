@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ReadList.css"
-
+import AddCircleOutlineOutlinedIcon from '@material-ui/icons/AddCircleOutlineOutlined';
 function ReadListPage() {
     return (
         <div>
@@ -11,11 +11,13 @@ function ReadListPage() {
 
                </div>
                <div className="Left-RL">
-               <input className="submit-RL"  value="Recently read" type="submit" />
+               <button className="submit-RL" >Recently read</button>
                <br/>
-               <input className="submit-RL"  value="Create Readlist" type="submit" />
+               <button class="submit-RL" >
+               <AddCircleOutlineOutlinedIcon style={{ fontSize: 16 }}/> Create Readlist
+                </button>
                <br/>
-               <input className="submit-RL"  value="Liked writings" type="submit" />
+               <button className="submit-RL"> Liked writings</button> 
 
                    
 
