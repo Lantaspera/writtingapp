@@ -6,49 +6,53 @@ import BlockOutlinedIcon from '@material-ui/icons/BlockOutlined';
 import ModeCommentOutlinedIcon from '@material-ui/icons/ModeCommentOutlined';
 import LocalOfferOutlinedIcon from '@material-ui/icons/LocalOfferOutlined';
 import PeopleAltOutlinedIcon from '@material-ui/icons/PeopleAltOutlined';
+import { Icon } from '@material-ui/core';
 
 function PrivacyPage() {
     return (
         <div className="privacy">
-             <h1 className="title">Account Privacy</h1>
-            <div className="acc-section">
-                <form>
+             <h1 className="title-one">Account Privacy</h1>
+            <div className="privacy-section">
+                
                     <table>
                         <tbody>
-                            <tr>
                             
-                    <label className="priv-tag"><LockOutlinedIcon/>Private account</label>
+                     <Icon><LockOutlinedIcon/></Icon>       
+                    <label className="priv-tag">Private account</label>
                                
-                    <td><input  className="priv-tags" name="private" type="radio"/>Enable</td>
-                  
-                    <td><input name="private" type="radio"/>Disable</td>
+                   <input className="input-one" name="private" type="radio"/>
+                    <label>Enable</label>
                     
-                    </tr>
+                  
+                    <input className="input-two"  name="private" type="radio"/>
+                    <label>Disable</label>
+            
+                    
+                
                     </tbody>
                     </table>
-                </form>
+        
                 
             </div>
-        
-        
-            <hr className="line-sec"/>
-            <div className="int-section">
-                <h2 className="title">Interactions</h2>
-                <form>
-                    <h3 className="sub-title"><ModeCommentOutlinedIcon/> Comments</h3>
+            <hr className="lin-PE"/>
+            <div>
+                <h2 className="title-one">Interactions</h2>
+                
+                    
+                    <label className="sub-title"><ModeCommentOutlinedIcon/>    Comments</label>
                     <div>
-                        <table className="allow">
+                        <table>
                             <tbody>
                                 <tr>
-                        <td><label className="allow">Allow comments from</label></td>
-                        <td><select className="untitle">
+                        <label className="allow-pri">Allow comments from</label>
+                        <td><select className="privacy-title">
                             <option className="option" value="">Everyone</option>
                             <option className="option" value="">Onlyfriends</option>
                         </select></td>
                         </tr>
                         <tr>
-                        <td><label className="allow">Block comments from</label></td>
-                        <td><select className="untitle">
+                        <label className="allow-pri">Block comments from</label>
+                        <td><select className="privacy-title">
                             <option className="option" value="">0 person</option>
                         </select></td>
                         </tr>
@@ -56,32 +60,40 @@ function PrivacyPage() {
                         </tbody>
                         </table>
                     </div>
-                    
-                    <h4 className="sub-title"><LocalOfferOutlinedIcon/> Tags</h4>
                     <div>
-                        <table className="allow">
+                    <label className="sub-title"><LocalOfferOutlinedIcon/>    Tags</label>
+                        <table>
                             <tbody>
-                                <tr>
-                        <td><label className="allow">Allow tags from</label></td>
-                        <td><select className="untitle">
+                               <tr>
+                        <label className="allow-pri2">Allow tags from </label>
+                        <td><select className="privacy-title">
                             <option className="option" value="">Everyone</option>
                             <option className="option" value="">Onlyfriends</option>
                         </select></td>
                         </tr>
-                        <label className="prv">Manually approve tages</label>
-                        <td><input name="allow-rad" type="radio"/></td>
-                        <td><input name="allow-rad" type="radio"/></td>
+                        <tr>
+                            
+                        <td><label className="allow-pri2">Manually approve tags</label></td>
+                        <td>
+                        <input className="input-3" placeholder="private" type="radio"/>
+                             <label>yes</label>
+                             <input className="input-two"  placeholder="private" type="radio"/>
+                             <label>Off</label></td>
+                             
+                        </tr>
                         </tbody>
                         </table>
-                    </div>
+                        
+                         </div>
+                         <div>
                     
-                    <h5 className="sub-title"><AlternateEmailOutlinedIcon/> Mentions</h5>
-                    <div>
-                        <table className="allow">
+                         <label className="sub-title"><AlternateEmailOutlinedIcon/> Mentions</label>
+                        <table >
                             <tbody>
                                 <tr>
-                        <td><label className="allow">Allow @mentions from </label></td>
-                        <td><select className="untitle">
+                                
+                        <td><label className="allow-pri">Allow @mentions from </label></td>
+                        <td><select className="privacy-title">
                             <option className="option" value="">Everyone</option>
                             <option className="option" value="">Onlyfriends</option>
                         </select></td>
@@ -89,24 +101,24 @@ function PrivacyPage() {
                         </tbody>
                         </table>
                     </div>
-                </form>
+                
                 </div>
                 <hr className="line-sec"/>
                 <div>
-                    <h6 className="title">Connections</h6>
-                    <div>
-                        <label className="allow"><BlockOutlinedIcon/> Blocked accounts</label>
+                    <label className="title-one">Connections</label>
+                    <div className="con-com">
+                        <label className="priv-tag"><BlockOutlinedIcon/> Blocked accounts</label> 
+                        <br></br>
                         
-                    </div>
-                    <div>
-                        <label className="allow"><PeopleAltOutlinedIcon/> Accounts you follow</label>
+                    
+                        <label className="priv-tag"><PeopleAltOutlinedIcon/> Accounts you follow</label>
                     </div>
                     </div>
                     <hr className="line-sec"/>
-                    <div className="pol">
-                        <h7 className="title">Privacy Policy</h7><br>
-                        </br>
-                        <a href="" className="allow">Read and learn more about our privacy policy here </a>
+                    <div>
+                        <label className="title-one">Privacy Policy</label>
+                        <br></br>
+                        <a  className="hper-link" href="">Read and learn more about our privacy policy here </a>
                     </div>
                     
                 
