@@ -3,46 +3,90 @@
     height: 100vh;
     margin-left: 13vw;
 }
-.acc-section{
+.privacy-section{
     width: 85vw;
     margin-left: 9.5%;
    
     
 }
-.title{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: bold; 
-margin-left: 9.5%;
-font-weight: 600;
-font-size: 20px;
-line-height: 27px;
-margin-top: 2%;
+.title-one{
+    font-family:  Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 41px;
+    margin-left: 10%;
+    font-weight: 600;
+
+
+}
+.priv-tag{
+    font-family:  Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 2%;
+}
+.input-one{
+    margin-right: 10px;
+    margin-left: 100px;
+    
+}
+
+.input-two{
+    margin-right: 10px;
+    margin-left: 20px;
+    
+}
+.input-3{
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-top: 15%;
+}
+.inp-rad{
+    margin-top: 10%;
 }
 .sub-title{
-    font-family: Segoe UI;
-font-style: normal; 
-margin-left: 9.5%;
-font-weight: 500;
-font-size: 16px;
-line-height: 27px;
+font-family:  Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+margin-left: 10%;
 margin-top: 1%;
 
     
 }
-.allow{
-    font-family: Segoe UI;
-    font-style: normal; 
-    margin-left: 9.5%;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 27px;
-    margin-top: 1%;
+.allow-pri{
+    font-family:  Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 155px;   
+    color: rgba(0, 0, 0, 0.57); 
+    margin-top:10%;
+    margin-right: 40px;
     
+}
+.allow-pri2{
+    font-family:  Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 155px;   
+    color: rgba(0, 0, 0, 0.57); 
+    margin-top:10%;
+    margin-right: 35px;
 }
 
 
-.untitle{
+.privacy-title{
     Width:250px;
     Height:40px;
     border-radius: 0px;
@@ -52,18 +96,14 @@ margin-top: 1%;
     box-sizing: border-box;
     margin-left: 10%;
     color: #616161;
+    margin-top: 11%;
 }
-.priv-tag{
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-    margin-top: 2%;
-    position: relative;
-    padding-right: 80px;
+.con-com{
+ margin-left: 10%;
 }
-.line-sec{
-    width: 80%;
+.hper-link{
+    margin-left: 10%;
 }
-
+.lin-PE{
+    width: 100%;
+}
