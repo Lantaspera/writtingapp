@@ -12,6 +12,7 @@ import Booming from '../Pages/Booming';
 import Events from '../Pages/Events';
 import Privacy from '../Pages/Privacy';
 import Security from '../Pages/Security';
+import Dashboard from '../Pages/Dashboard';
 
 
 function Navibar() {
@@ -32,6 +33,7 @@ function Navibar() {
                 <Route path = '/security' component={Security}></Route>
                 <Route path = '/events' component={Events}></Route>
                 <Route path ='/privacy' component={Privacy}></Route>
+                <Route path ='/dashboard' component={Dashboard}></Route>
 
             </Switch>
           </Router>

@@ -9,6 +9,7 @@ import GroupWorkOutlinedIcon from '@material-ui/icons/GroupWorkOutlined';
 import ChromeReaderModeOutlinedIcon from '@material-ui/icons/ChromeReaderModeOutlined';
 import EventOutlinedIcon from '@material-ui/icons/EventOutlined';
 import LocalLibraryOutlinedIcon from '@material-ui/icons/LocalLibraryOutlined';
+import { Link } from 'react-router-dom';
   
 
 {/*left navi bar for Profilepage*/}
@@ -38,9 +39,9 @@ function LeftNavbarprofile() {
                 <Container>
              <Button
                          className={classes.btn}
-                         href="#"
+                       
                          startIcon={<PhotoFilterOutlinedIcon  style={{ fontSize: 18 }}/>}
-                         >Dashboard</Button><br/>
+                         ><Link to ="/dashboard" style={{textDecoration: 'none', color: 'black'  }}>Dashboard</Link></Button><br/>
                         
                         <Button
                          className={classes.btn}
