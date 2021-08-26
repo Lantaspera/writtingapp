@@ -5,7 +5,7 @@
 }
 .main-DB{
     
-    width: 115%;
+    width: 100%;
     min-height: 160vh;
     padding-left: 50px;
     padding-top: 50px;
@@ -13,8 +13,8 @@
     background-color: #ECEDEE;
 }  
 .boxone-DB{
-    height: 82px;
-    width: 262px;
+    height: 75px;
+    width: 250px;
     background: #FFFFFF;
     box-shadow: 0px 20px 27px rgba(236, 185, 185, 0.05);
     border-radius: 16px;
@@ -24,25 +24,28 @@
 }
 .boxfyv-DB{
     height: 200px;
-width: 350px;
-margin-left:83vw ;
-border-radius: 16px;
-background: #FBFBFB;
-box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
-border-radius: 16px;
-margin-top:-125px ;
+    width: 350px;
+    margin-left:71vw ;
+    border-radius: 16px;
+    background: #FBFBFB;
+    box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+    
+    margin-top:-115px ;
+}
+.boxone-DB:hover{
+    background-color: #d7f7f3;
 }
 .ca-DB{
     font-family: Segoe UI;
     font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 27px;
-letter-spacing: -0.553191px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.553191px;
 
-color: #605050;
-padding-top: 20px;
-padding-left:30px ;
+    color: #605050;
+    padding-top: 20px;
+    padding-left:30px ;
 }
 .ta-DB{
     font-family: Segoe UI;
@@ -64,6 +67,10 @@ padding-left:30px ;
     color: #67748E;
     padding: 20px;
 }
+
+    
+    
+
 .cat-DB{
     font-family: Segoe UI;
     font-style: normal;
@@ -87,7 +94,7 @@ padding-left:30px ;
 .ic-DB{
    height: 50px;
    width: 50px;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 2px;
     border-radius: 8px;
     background: #5F6EF0;
@@ -96,7 +103,7 @@ padding-left:30px ;
 .divtwo-DB{
     float: left;
     margin-left: 25vw;
-    margin-top: -80px;
+    margin-top: -75px;
    }
 .per-DB{
     font-family: Segoe UI;
@@ -109,7 +116,7 @@ padding-left:30px ;
 .ictwo-DB{
     height: 50px;
     width: 50px;
-    margin-left: 100px;
+    margin-left: 85px;
     margin-top: 2px;
     border-radius: 8px;
     background: #5F6EF0;
@@ -139,25 +146,26 @@ padding-left:30px ;
 }
 .divthree-DB{
     margin-left: 12vw;
-    padding-top:5px ;  
+    
+    margin-top: -6vh;
 }
 
 .boxthree-DB{
     
     height: 236px;
-    width: 490px;
+    width: 430px;
     background: #734B6E;
     box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
     float: left;
 }
 .divfor-DB{
-    margin-left: 34vw;
+    margin-left: 30vw;
     padding-top:0px ;
 }
 .boxfor-DB{
     height: 236px;
-    width: 490px;
+    width: 430px;
     background: linear-gradient(100.18deg, #FF03DF 1.91%, #0B23FF 98.47%);
     box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
@@ -169,7 +177,7 @@ padding-left:30px ;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     margin: 10px;
     line-height: 22px;
     color: #000000;
@@ -178,7 +186,7 @@ padding-left:30px ;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 17px;
     letter-spacing: -0.553191px;
     color: #EEFF83;
@@ -187,7 +195,7 @@ padding-left:30px ;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 40px;
     color: #FFFFFF;
 }
@@ -195,7 +203,7 @@ padding-left:30px ;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     letter-spacing: -0.442553px;
     color: #FFFFFF;
@@ -211,31 +219,32 @@ padding-left:30px ;
     float: left;
 }
 .badgeon-DB{
-    margin-left: 19px;
+    margin-left: 16px;
     margin-top: 10px;
     position: absolute;
     
 }
 .badge-DB{
-    margin-left: 35px;
+    margin-left: 30px;
     margin-top: 10px;
     position: absolute;
 
 }
 .boxsix-DB{
-    height: 263px;
+    height: 250px;
     width: 280px;
     background: #FFFFFF;
     box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
-    margin-left: 85vw;
-    margin-top: -225px;
+    margin-left: 73vw;
+    margin-top: -170px;
+    padding-top:-15px ;  
 }
 .lynon-DB{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 22px;
     padding-top: 20px;
     padding-left: 30px;
@@ -264,7 +273,7 @@ padding-left:30px ;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13x;
     margin-left: 3px;
     padding-top: -5px;
     letter-spacing: -0.387234px;
@@ -288,22 +297,23 @@ padding-left:30px ;
     margin-top: -50px;
 }
 .tb-DB{
-    height: 661px;
-    width: 990px;
+    height: 550px;
+    width: 840px;
     background: #FFFFFF;
     box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
     margin-left: 13vw;
     border-radius: 12px;
     float: left;  
+    margin-top: -25px;
 }
 .tbtyt-DB{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     color: #252F40;
     margin: 40px;
-    padding-top: 40px;
+    padding-top: -15px;
 }
 .capt-DB{
     font-family: Segoe UI;
@@ -316,34 +326,47 @@ padding-left:30px ;
     margin: 40px;
     margin-top: -30px;
 }
+.colon-DB{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-style: normal;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    color: #8392AB;
+}
 .colone-DB{
     margin-left: 60px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-style: normal;
     font-family: Segoe UI;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 19px;
     color: #252F40;
+}
+.colone-DB:hover{
+    background-color: #ECEDEE;
 }
 .rowone-DB{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     color: #8392AB;
 }
 .coltoo-DB{
-    margin-left: 250px;
-    margin-top: 40px;
+    margin-left: 170px;
+    margin-top: 30px;
 }
 .coltre-DB{
-    margin-left: 100px;
-    margin-top: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 .colfor-DB{
-    margin-left: 100px;
-    margin-top: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 .container-DB{
     height: 3.69px;
@@ -365,12 +388,13 @@ padding-left:30px ;
 .boxsvn-DB{
     height: 200px;
     width: 350px;
-    margin-left:83vw ;
+    margin-left:-2vw ;
+    margin-top: 6vh;
     border-radius: 16px;
     background: #FBFBFB;
     box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
-    margin-top: 20px;
+    
 }
 .t-DB{
     margin-top: -12px;

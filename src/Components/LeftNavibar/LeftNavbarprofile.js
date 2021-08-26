@@ -57,9 +57,9 @@ function LeftNavbarprofile() {
                         
                         <Button
                          className={classes.btn}
-                         href="./readlist"
+                         
                          startIcon={<LocalLibraryOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Readlist</Button><br/>
+                         ><Link to ="/readlist" style={{textDecoration: 'none', color: 'black'  }}>Readlist</Link></Button><br/>
 
                         <Button
                          className={classes.btn}
@@ -69,9 +69,9 @@ function LeftNavbarprofile() {
 
                         <Button
                          className={classes.btn}
-                         href="./events"
+                        
                          startIcon={<EventOutlinedIcon style={{ fontSize: 18 }}/>}
-                         >Events</Button><br/>
+                         ><Link to ="/events" style={{textDecoration: 'none', color: 'black'  }}>Events</Link></Button><br/>
                </Container>
 
 
