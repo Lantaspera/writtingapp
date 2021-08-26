@@ -1,11 +1,13 @@
 import React from 'react'
 import './DashboardPage.css'
+import './DashboardPost'
 import LibraryBooksOutlinedIcon from '@material-ui/icons/LibraryBooksOutlined';
 import CreateOutlinedIcon from '@material-ui/icons/CreateOutlined';
 import AccessTimeOutlinedIcon from '@material-ui/icons/AccessTimeOutlined';
 import LoyaltyIcon from '@material-ui/icons/Loyalty';
 import ArrowUpwardOutlinedIcon from '@material-ui/icons/ArrowUpwardOutlined';
 import BarChartOutlinedIcon from '@material-ui/icons/BarChartOutlined';
+import DashboardPost from './DashboardPost';
 
 function DashboardPage() {
     return (
@@ -85,7 +87,7 @@ function DashboardPage() {
                                 </td>
                                 <td>
                                     <div className="badgeon-DB">
-                                <LoyaltyIcon style={{ width: '180px', height: '174px', color: "#880E4F"}} />
+                                <LoyaltyIcon style={{ width: '145px', height: '160px', color: "#880E4F"}} />
                                 </div>
                                 </td>
 
@@ -113,7 +115,7 @@ function DashboardPage() {
                                 </td>
                                 <td>
                                     <div className="badge-DB">
-                                <LoyaltyIcon style={{ width: '180px', height: '174px', color: "#880E4F"}} />
+                                <LoyaltyIcon style={{ width: '145px', height: '160px', color: "#880E4F"}} />
                                 </div>
                                 </td>
 
@@ -177,204 +179,8 @@ function DashboardPage() {
 
 
             </div>
-
-        </div>
-        <div>
-     <div className="tb-DB"> 
-     <p className="tbtyt-DB">posts</p>
-     <div className="set-DB">
-         <table>
-             <tbody>
-                 <tr>
-                     <td> <p className="capt-DB">done this month</p></td>
-                      <td>  <p className="sics-DB">6</p></td>
-                      </tr>
-             </tbody>
-         </table>
-    
-     </div>
-     <div className="tbl-DB">
-         <table>
-             <tbody>
-                 <tr>
-                     <td className="rowone-DB">
-                         <div className="colone-DB" style={{ color: '#8392AB'}}>title</div> </td>
-                     <td className="rowone-DB">
-                        <div className="coltoo-DB"> likes</div></td>
-                     <td className="rowone-DB">
-                         <div className="coltre-DB">view</div></td>
-                     <td className="rowone-DB">
-                         <div className="colfor-DB">most reach</div></td>
-                 </tr>
-                 <tr>
-                     <td><div className="colone-DB">
-                         into the wilding
-                         </div>
-                         </td >
-                         <td className="rowone-DB"><div className="coltoo-DB">
-                         14,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB"><div className="coltre-DB">
-                         20,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB">
-                             <div className="colfor-DB">
-                         90%
-                         <div class="container-DB">
-                         
-                        <div class="progress-bar" style={{background: '#52C41A', width: '90%'}}></div>
-                        </div>
-                     
-                     </div>
-                         
-                         </td>
-
-                 </tr>
-                 <tr>
-                     <td><div className="colone-DB">
-                     Hope is Track
-                         </div>
-                         </td >
-                         <td className="rowone-DB"><div className="coltoo-DB">
-                         1,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB"><div className="coltre-DB">
-                         3,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB">
-                             <div className="colfor-DB">
-                             10%
-                             <div class="container-DB">
-                         
-                         <div class="progress-bar" style={{background: '#F5222D', width: '10%'}}></div>
-                         </div>
-                        
-                     </div>
-
-                         
-                         </td>
-
-                 </tr>
-                 <tr>
-                     <td><div className="colone-DB">
-                     Fix your problmes
-                         </div>
-                         </td >
-                         <td className="rowone-DB"><div className="coltoo-DB">
-                         4,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB"><div className="coltre-DB">
-                         5,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB">
-                             <div className="colfor-DB">
-                             60%
-                         
-                             <div class="container-DB">
-                         
-                         <div class="progress-bar" style={{background: 'linear-gradient(135deg, #21D4FD 0%, #2152FF 100%)', width: '60%'}}></div>
-                         </div>
-                     </div>
-
-                         
-                         </td>
-
-                 </tr>
-                 <tr>
-                     <td><div className="colone-DB">
-                     U.S Launching new missile
-                         </div>
-                         </td >
-                         <td className="rowone-DB"><div className="coltoo-DB">
-                         15,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB"><div className="coltre-DB">
-                         30,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB">
-                             <div className="colfor-DB">
-                             100%
-                         
-                             <div class="container-DB">
-                         
-                         <div class="progress-bar" style={{background: '#52C41A', width: '100%'}}></div>
-                         </div>
-                     </div>
-
-                         
-                         </td>
-
-                 </tr>
-                 <tr>
-                     <td><div className="colone-DB">
-                     dracula villa
-                         </div>
-                         </td >
-                         <td className="rowone-DB"><div className="coltoo-DB">
-                         900
-                         </div>
-                         </td>
-                         <td className="rowone-DB"><div className="coltre-DB">
-                         1,010
-                         </div>
-                         </td>
-                         <td className="rowone-DB">
-                             <div className="colfor-DB">
-                             80%
-                             <div class="container-DB">
-                         
-                         <div class="progress-bar" style={{background: '#1890FF', width: '80%',}}></div>
-                         </div>
-                        
-                     </div>
-
-                         
-                         </td>
-
-                 </tr>
-                 <tr>
-                     <td><div className="colone-DB">
-                     stupid politics
-                         </div>
-                         </td >
-                         <td className="rowone-DB"><div className="coltoo-DB">
-                         800
-                         </div>
-                         </td>
-                         <td className="rowone-DB"><div className="coltre-DB">
-                         1,000
-                         </div>
-                         </td>
-                         <td className="rowone-DB">
-                             <div className="colfor-DB">
-                             10%  
-                             <div class="container-DB">
-                         
-                         <div class="progress-bar" style={{background: '#F5222D', width: '10%',}}></div>
-                         </div>     
-
-                     </div>
-
-                         
-                         </td>
-
-                 </tr>
-             </tbody>
-         </table>
-     </div>
-
-     </div>
-     </div>
-     </div>
-     <div className="boxsvn-DB">
+            
+            <div className="boxsvn-DB">
          <p className="l-DB">Active time</p>
          <div className="t-DB">
              <table>
@@ -440,6 +246,11 @@ function DashboardPage() {
      </div>
 
 
+        </div>
+
+
+        </div>
+        <DashboardPost/>
         </div>
     )
 }
