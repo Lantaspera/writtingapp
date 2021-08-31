@@ -4,55 +4,83 @@ height: 100%;
 margin-left: 13vw;
     
 }
-.create-hr{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
-margin-left: 10%;
-margin-top: 3%;
-}
+
 .Title-c{
+    
+    
 font-family: Segoe UI;
 font-style: normal;
 font-weight: bold;  
-margin-left: 10%;
+margin-left: 11%;
 font-weight: 600px;
 font-size: 16px;
 line-height: 27px;
-margin-top:4%;
+margin-top:5%;
 color: #000000;
 
 
 }
 .Title-Lan{
+
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;  
-    margin-left: 10%;
+    margin-left: 11%;
     font-weight: 600px;
     font-size: 16px;
     line-height: 27px;
-    margin-top:30px;
+    margin-top:5%;
     color: #000000;
     
     
     }
+.un-C{
+    
+        Width:445px;
+        Height:40px;
+        margin-bottom:-40px;
+        margin-top: 10px;
+        border-radius: 0px;
+        box-sizing: border-box;
+        position: absolute;
+        padding: 5px;
+        border: 0.5px solid #56B280;
+        margin-left: 10%;
+       
+              
+    
+}
+
+.un-C:focus{
+    outline: none !important;
+    border:1px solid #17C1E8;
+    
+}
+
 .untitle{
+
+    position: absolute;
     Width:445px;
     Height:40px;
-    margin-bottom:-30px;
+    margin-bottom:-40px;
+     margin-top: 10px;
     border-radius: 0px;
     font-weight: normal;
     font-size: 14px;
     border: 0.5px solid #56B280;
     box-sizing: border-box;
     margin-left: 10%;
-    color: #616161;
-   
-    
+    color: #616161;  
 }
+.untitle:hover{
+    
+    border-color: #17C1E8;
+
+}
+
+   
+	
+
 
 
 
@@ -119,6 +147,12 @@ padding: 5px;
     word-wrap: break-word;
     word-break: break-all;
     
+}
+.draftarea:focus{
+    outline: none !important;
+    border:1px solid #17C1E8;
+    
+   
 }
 .submit-D{
     height: 35px;

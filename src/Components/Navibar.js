@@ -15,6 +15,7 @@ import Security from '../Pages/Security';
 import Dashboard from '../Pages/Dashboard';
 
 
+
 function Navibar() {
     return (
         <div className="navigation">
@@ -34,7 +35,7 @@ function Navibar() {
                 <Route path = '/events' component={Events}></Route>
                 <Route path ='/privacy' component={Privacy}></Route>
                 <Route path ='/dashboard' component={Dashboard}></Route>
-
+                
             </Switch>
           </Router>
         </div>

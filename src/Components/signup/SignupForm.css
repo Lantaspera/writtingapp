@@ -80,7 +80,7 @@ small{
     color: white;
     margin-right: 15px;
 }
-form input{
+.form-signup .inp{
     display: block;
     width: 100%;
     box-sizing: border-box;

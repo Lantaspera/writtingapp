@@ -33,7 +33,7 @@ function Login() {
                     </div>
                     <div className="login-input-container">
                         <label className="login-label" for="password"  > Password</label>
-                        <input type="password" name="password" placeholder="Password" 
+                        <input className="login-inputs" type="password" name="password" placeholder="Password" 
                         detail={details.password} onChange={changeHandler} ></input>
                     </div>
                     <button className="login-btn" type="submit">Login</button>

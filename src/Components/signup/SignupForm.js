@@ -37,17 +37,17 @@ function SignupForm() {
                 </section>
                 <div className="input-container">
                     <label className="signup-label" for="username"  >Username</label>
-                    <input type="text" name="username"  id="username" value={values.username} onChange={handleChange}></input>
+                    <input className="inp" type="text" name="username"  id="username" value={values.username} onChange={handleChange}></input>
                 </div>
                 {errors.username && <p className="validation" >{errors.username}</p>}
                 <div className="input-container">
                     <label className="signup-label" for="email"  >Email Address</label>
-                    <input type="email" name="email" id="email" value={values.email} onChange={handleChange}></input>
+                    <input className="inp" type="email" name="email" id="email" value={values.email} onChange={handleChange}></input>
                 </div>
                 { errors.email && <p className="validation">{errors.email} </p>}
                 <div class="input-container password">
                     <label className="signup-label" for="password"  >password</label>
-                    <input type="password" name="password" id="password" placeholder="6+ charaters" value={values.password} onChange={handleChange}></input>
+                    <input className="inp" type="password" name="password" id="password" placeholder="6+ charaters" value={values.password} onChange={handleChange}></input>
                     
                 </div>
                 { errors.password && <p className="validation">{errors.password} </p>}

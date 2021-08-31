@@ -1,5 +1,8 @@
 import React,{useState} from 'react'
+
 import './feeds.css'
+import { Link } from 'react-router-dom';
+import { InputLabel } from '@material-ui/core';
 
 function Feeds() {
     const [blog,setBlog] = useState([
@@ -17,21 +20,26 @@ function Feeds() {
 
     <div className="ccards">
             {blog.map((blog)=>(
+                 <Link to="/feedbody">
                 <div className="cards__item">
+                   
                     <div className="card" key={blog.id}>
+                    
                     <img className="feed-pic" src={blog.feedpic} alt="feed-pic" ></img>
                         <div class="mcard">
                             <div class="profile-show">
                                 <img className="profile-pic" src={blog.profilepic} alt="profile-pic" ></img>
                                 <p className="profile-name"> {blog.author} </p>
-                            </div>
-                            <h3 className="title">{blog.title}</h3>
+                            </div>   
+                            <h3 className="title">{blog.title}</h3>        
                             <p className="body-w">{blog.body}</p>
                         </div>
                     </div>
-                </div>
+                </div> </Link>
             ))}
+           
     </div>
+    
     )
 }
 
