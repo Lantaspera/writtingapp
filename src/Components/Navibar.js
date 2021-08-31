@@ -13,7 +13,7 @@ import Events from '../Pages/Events';
 import Privacy from '../Pages/Privacy';
 import Security from '../Pages/Security';
 import Dashboard from '../Pages/Dashboard';
-
+import feedBody from './Feeds/feedBody'
 
 function Navibar() {
     return (
@@ -34,6 +34,7 @@ function Navibar() {
                 <Route path = '/events' component={Events}></Route>
                 <Route path ='/privacy' component={Privacy}></Route>
                 <Route path ='/dashboard' component={Dashboard}></Route>
+                <Route path ='/feedbody' component ={feedBody}></Route>
 
             </Switch>
           </Router>
