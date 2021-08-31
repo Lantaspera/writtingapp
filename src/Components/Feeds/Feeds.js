@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import './feeds.css'
+import {Link} from 'react-router-dom'
 
 function Feeds() {
     const [blog,setBlog] = useState([
@@ -17,11 +18,12 @@ function Feeds() {
 
     <div className="ccards">
             {blog.map((blog)=>(
-                <div className="cards__item">
+              <Link to='/feedbody'>  
+              <div className="cards__item">
                     <div className="card" key={blog.id}>
                     <img className="feed-pic" src={blog.feedpic} alt="feed-pic" ></img>
-                        <div class="mcard">
-                            <div class="profile-show">
+                        <div className="mcard">
+                            <div className="profile-show">
                                 <img className="profile-pic" src={blog.profilepic} alt="profile-pic" ></img>
                                 <p className="profile-name"> {blog.author} </p>
                             </div>
@@ -30,8 +32,10 @@ function Feeds() {
                         </div>
                     </div>
                 </div>
+                </Link>
             ))}
     </div>
+
     )
 }
 
