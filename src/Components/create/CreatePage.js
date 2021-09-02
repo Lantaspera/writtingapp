@@ -3,23 +3,29 @@ import './create.css'
 import { useState } from 'react';
 
 function CreatePage() {
-        const [input,setInput] = useState('');
-        console.log({input})
+      const [input,setInput] = useState('');
+            console.log({input})
     return (
         <div className="Create"> 
             
             
           <form >
+             
      
               <label className="Title-c">Title</label>
+              <br/>
+           
 
-              <div className="">
+              <div>
 
-              <input className="untitle" type="text" placeholder="Untitle" /> 
+              < input className="un-C" type="text" placeholder="title"/>
+
               </div>
+              
               <div>
               <label className="Title-c">Category</label> <br>
               </br>
+            
               <select className="untitle">
                   <option className="option" value=""> Select Category </option>
                   <option className="option" value="Auto Biography "> Auto biography </option>
@@ -40,6 +46,7 @@ function CreatePage() {
              
               <label className="Title-Lan">Language</label><br>
               </br>
+              
               <div>
               <select className="untitle">
                   <option className="option" value=""> Select Language </option>
@@ -61,22 +68,26 @@ function CreatePage() {
               </div>
               <label className="Title-Lan">Tagline</label>
 
-              <div className="">
-
-              <input className="untitle" type="text" placeholder="Enter Tagline" /> 
-              </div>
               <div >
-                     <input class="submit"  value="Save & Next" type="submit" />
+
+              <input className="un-C" type="text" placeholder="Enter Tagline" /> 
+              </div>
+              <label className="Title-Lan">Upload Image</label>
+              <div >
+                  
+                     <input type="file"  style={{display: 'block', marginTop: '10px', Height: '40px', border: '0.5px solid' , borderColor:'#56B280', marginLeft: '11.3%', boxSizing: 'border-box',border: '1px solid #c4c4c4',
+    borderRadius: '0px', padding: '.5em',fontSize: '0.875rem', width:'445px'  }} />
                     </div>
             
+                
           </form>
            <div>
            
-  
+   
     <div>
     <label className="Title-Lan">Compose Here</label><br/>
     <textarea className="draftarea" placeholder="type here" value={input} onInput={e => setInput(e.target.value)}/><br/>
-    <input class="submit-D"  value="Draft" type="submit" />
+    <input class="submit-D"  value="Submit" type="submit" />
     </div>
   
 
