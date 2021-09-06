@@ -18,8 +18,8 @@ function Feeds() {
 
     <div className="ccards">
             {blog.map((blog)=>(
-              <Link to='/feedbody'>  
-              <div className="cards__item">
+                <div className="cards__item">
+                  <Link to='/feedbody' style={{textDecoration:'none'}}>  
                     <div className="card" key={blog.id}>
                     <img className="feed-pic" src={blog.feedpic} alt="feed-pic" ></img>
                         <div className="mcard">
@@ -31,8 +31,8 @@ function Feeds() {
                             <p className="body-w">{blog.body}</p>
                         </div>
                     </div>
-                </div>
                 </Link>
+                </div>
             ))}
     </div>
 
