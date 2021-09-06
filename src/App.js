@@ -13,7 +13,7 @@ function App() {
     <div className="App">
 
        <Navibar/>
-       <Footer/>
+       {/* <Footer/> */}
      {/* <SignupForm/>      */}
     </div>
     
